@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="path_to_your_custom_styles.css" />
+    <link rel="stylesheet" href="./assets/scss/profile-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-bmT1Oio2r5UqjScxMlEPdZxkRRDgcf0F0Y6BtlWYGQxFv2Kq4jZfzAqfb7Q9OF6b"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <style>
+      form {
+        background-color: transparent;
+        border: none;
+      }
+    </style>
+  </head>
+  <body class="bg-dark text-light gino">
+    <header class="text-center mt-4">
+      <img class="fletnix" src="./assets/netflix_logo.png" alt="logo" />
+      <h1>EDIT PROFILE</h1>
+    </header>
+    <main>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card Eustass">
+              <img
+                src="./assets/Profile Page.jpg"
+                class="card-img-top"
+                alt="Immagine del Profilo"
+              />
+              <div class="edit-icon">
+                <i class="bi bi-pencil-square"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-body soft">
+                <button
+                  class="btn btn-link card-title mb-3 strive"
+                  type="button"
+                >
+                  Strive Student
+                </button>
+                <p class="card-text mb-4">
+                  Language:
+                  <select
+                    class="form-select form-select-sm text-dark seletto"
+                    aria-label=".form-select-sm example"
+                  >
+                    <option value="1" selected>English</option>
+                    <option value="2">Italian</option>
+                    <option value="3">France</option>
+                    <option value="4">Japan</option>
+                    <option value="5">Spain</option>
+                  </select>
+                </p>
+                <hr style="border-color: gray" />
+                <p class="card-text mb-4 fs-2">Maturity Settings:</p>
+                <button class="btn btn-dark mb-3">ALL MATURITY RATINGS</button>
+                <p class="mb-4">
+                  Show titles of
+                  <span class="all">all maturity ratings</span> for this profile
+                </p>
+                <button class="btn btn-dark btn-sm mb-3">EDIT</button>
+                <hr style="border-color: gray" />
+                <h2 class="mb-3">Autoplay controls</h2>
+                <div class="form-check mb-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="autoplayNextEpisode"
+                  />
+                  <label
+                    class="form-check-label text-light"
+                    for="autoplayNextEpisode"
+                  >
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
+                <div class="form-check mb-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="autoplayPreviews"
+                  />
+                  <label
+                    class="form-check-label text-light"
+                    for="autoplayPreviews"
+                  >
+                    Autoplay previews while browsing on all devices
+                  </label>
+                </div>
+                <hr style="border-color: gray" />
+                <div class="text-center">
+                  <button class="btn btn-success">SAVE</button>
+                  <button class="btn btn-secondary">CANCEL</button>
+                  <button class="btn btn-danger">DELETE PROFILE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center mt-4"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
